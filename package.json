@@ -1,22 +1,24 @@
 {
-  "name": "starter-express-api",
+  "name": "mockupAPI",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "commonlog-kb": "^1.6.14",
+    "easyxml": "^2.0.1",
+    "express": "^4.17.1",
+    "express-load": "^1.1.16",
+    "express-xml-bodyparser": "^0.3.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "xml2js": "^0.4.23"
   }
 }
