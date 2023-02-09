@@ -13,15 +13,16 @@ module.exports = (app) => {
     app.post('/api/post', (req, res) => {
         res.send(require('./res/post.json'));
     });  
+    
+    app.get('/signal',(req,res) => {
+        res.send(require('./res/signal.json'))
+    })
  
     app.all('*', (req, res) => {
         console.log('testttt')
         res.send(require('./res/all.json'));
     });
 
-    app.get('/signal',(req,res) => {
-        res.send(require('./res/signal.json'))
-    })
     
     
 }
