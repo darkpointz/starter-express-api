@@ -19,6 +19,9 @@ module.exports = (app) => {
         res.send(require('./res/all.json'));
     });
 
+    app.get('/signal',(req,res) => {
+        res.send(require('./res/signal.json'))
+    })
     
     
 }
