@@ -17,13 +17,15 @@ module.exports = (app) => {
     app.get('/signal',(req,res) => {
         res.send(require('./res/signal.json'))
     })
+    
+    app.get('/pig/kolokoloo/1',(req,res) => {
+        res.send(require('./res/kolokoloo.json'))
+    })
 
     app.get('/goKo',(req,res) => {
         res.send(require('./res/goKo.json'))
     })
 
-
- 
     app.all('*', (req, res) => {
         console.log('testttt')
         res.send(require('./res/all.json'));
