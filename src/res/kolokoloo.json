@@ -1,42 +1,33 @@
 {
-    "status":"success",
-    "code":"200",
-    "locationDetail":[
-       {
-          "id":"001",
-          "name":"BTS Ari",
-          "image":"assets/images/p1.png",
-          "lat":13.7841925,
-          "lng":100.5390321,
-          "detail":"sky train station",
-          "zipcode":"100001"
-       },
-       {
-          "id":"001",
-          "name":"BTS Ari",
-          "image":"assets/images/p1.png",
-          "lat":13.7841925,
-          "lng":100.5390321,
-          "detail":"sky train station",
-          "zipcode":"100001"
-       },
-       {
-          "id":"002",
-          "name":"Ari Hills",
-          "image":"assets/images/p2.png",
-          "lat":13.7844419,
-          "lng":100.5465816,
-          "detail":"Hotel and community",
-          "zipcode":"200002"
-       },
-       {
-          "id":"003",
-          "name":"Frank and Release",
-          "image":"assets/images/p3.png",
-          "lat":13.7804718,
-          "lng":100.5493681,
-          "detail":"Sport club",
-          "zipcode":"300003"
-       }
-    ]
+   "status":"success",
+   "code":"200",
+   "locationDetail":[
+      {
+         "id":"001",
+         "name":"BTS Ari",
+         "image":"assets/images/p1.png",
+         "lat":13.7841925,
+         "lng":100.5390321,
+         "address":"sky train station",
+         "distance":"500m"
+      },
+      {
+         "id":"002",
+         "name":"Ari Hills",
+         "image":"assets/images/p2.png",
+         "lat":13.7844419,
+         "lng":100.5465816,
+         "address":"Hotel and community",
+         "distance":"200m"
+      },
+      {
+         "id":"003",
+         "name":"Frank and Release",
+         "image":"assets/images/p3.png",
+         "lat":13.7804718,
+         "lng":100.5493681,
+         "address":"Sport club",
+         "distance":"0.5km"
+      }
+   ]
 }
