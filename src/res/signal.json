@@ -3,8 +3,8 @@
     "code":"200",
     "data":[
         {
-            "signal4g":20,
-            "signal5g":100
+            "signal4g":"20",
+            "signal5g":"100"
         }
     ]   
 }
