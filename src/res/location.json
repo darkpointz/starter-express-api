@@ -1,0 +1,36 @@
+{
+   "status":"success",
+   "code":"200", 
+   "offices":[
+      {
+         "id":"current cellular",
+         "image":"assets/images/cellular_current.png",
+         "lat":13.783889514456709,
+         "lng":100.5471371883403
+      },
+      {
+         "id":"other cellular 1",
+         "image":"assets/images/cellular_other.png",
+         "lat":13.785486273968663, 
+         "lng":100.54486674628475
+      },
+      {
+         "id":"other cellular 2",
+         "image":"assets/images/cellular_other.png",
+         "lat":13.783791753315596, 
+         "lng":100.54862471934223
+      },
+      {
+         "id":"Super Wifi",
+         "image":"assets/images/bit_wifi.png",
+         "lat":13.782173257366233, 
+         "lng":100.54646612172291
+      },
+      {
+         "id":"bad signal",
+         "image":"assets/images/cellular_bad.png",
+         "lat":13.78476936288522, 
+         "lng":100.5518905768803
+      }
+   ]
+}

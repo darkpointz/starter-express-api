@@ -19,8 +19,8 @@ module.exports = (app) => {
     res.send(require("./res/performance.json"));
   });
 
-  app.get("/pig/kolokoloo/1", (req, res) => {
-    res.send(require("./res/kolokoloo.json"));
+  app.get("/location", (req, res) => {
+    res.send(require("./res/location.json"));
   });
 
   app.get("/goKo", (req, res) => {
