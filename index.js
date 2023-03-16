@@ -33,7 +33,7 @@ app.get("/add", async (req, res) => {
         body: "testMode5G",
       },
     ]);
-    res.send({ title: "Living_Network" });
+    res.send("Add Success");
   } catch (error) {
     console.log("err : " + error);
   }
